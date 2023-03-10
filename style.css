@@ -1,0 +1,70 @@
+.form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color:cornflowerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn::before {
+  content: "\f040"; 
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  margin-right: 5px; 
+}
+  .remove-btn::before {
+    content: "\f1f8"; 
+    font-family: "FontAwesome"; 
+    margin-right: 5px; 
+  }
+  
+  .complete-btn::before {
+    content: "\f00c"; 
+    font-family: "FontAwesome"; 
+    margin-right: 5px; 
+  }
+
+
+.task-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo-list {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.completed-tasks {
+  flex-grow: 1;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+.task {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+ul{
+  list-style: none;
+}

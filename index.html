@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+   
+    <script src="./index.js" defer></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="app">
+      <h1>TodoList</h1>
+      <div class="form">
+        <input type="text" class="input" />
+        <button class="submit-btn">Submit</button>
+      </div>
+      <div class="task-list-container">
+        <div class="todo-list">
+            <div class="">
+          <h4>Pending Tasks</h4>
+          <ul id="pending-tasks">
+            <li>
+              <div class="task">
+                <p class="task-title">Task 1</p>
+                <div class="button-container">
+                  <button class="edit-btn">Edit</button>
+                  <button class="remove-btn">Remove</button>
+                  <button class="complete-btn">Complete</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="completed-tasks">
+          <h4>Completed Tasks</h4>
+          <ul id="completed-tasks">
+            <li>
+            <div class="task">
+              <p class="task-title">Task 2</p>
+              <div class="button-container">
+                <button class="edit-btn">Edit</button>
+                <button class="remove-btn">Remove</button>
+                <button class="undo-btn">Undo</button>
+              </div>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
